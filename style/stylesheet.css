@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;600&display=swap');
+
+html {
+    /* bg-c: 冬至-紫梅 */
+    /* background-color: #BB7A87; */
+    /* color-立秋-缟羽 */
+    background-color: #EFEFEF;
+    font-family: 'Enriqueta', serif;
+}
+
+body {
+    margin: 0 12% 0 8%;
+    width: 75%;
+    height: 100%;
+}
+
+
+#background{
+  position: fixed;
+  width: 900px;
+  height: 900px;
+  margin-bottom: 0%;
+  margin-left: -20%;
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    /* bg-c: 冬至-银红 */
+    background-color: #E7CAD3;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    text-align: center;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    /* color-冬至-霁红 */
+    color:#7C4449;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+      /* color-冬至-濯绛  */
+    color: #796860;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    position: fixed;
+    height: 100%;
+    width: 7%;
+    font-size: 20px;
+    cursor: pointer;
+    /* bg-c: 冬至-银红 */
+   background-color: #E7CAD3;
+    /* bg-c:冬至-霁红 */
+    color: #7C4449;
+    top:0;
+    right: 0;
+    border: none;
+    font-family: 'Enriqueta', serif;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+  
+  .openbtn:hover {
+      /* bg-c:冬至-咸池 */
+    background-color: #DAA9A9;
+  }
+  #index_header{
+    margin-top:10px;
+    text-align: center;
+    width: 100%;
+    } 
+
+  #header{
+    margin-top:10px;
+    text-align: center;
+    width: 100%;
+  } 
+
+  .icon {
+    /* position:relative; */
+    height: 300px;
+    width: 300px;
+    margin: 0, auto;
+  }
+
+  #index_header h1{
+    padding-top: 1em;
+    top: 20px;
+    /* bg-color-冬至-霁红 */
+    color:#7C4449;
+    /* color-立秋-缟羽 */
+    /* color: #EFEFEF; */
+  }
+
+  #index_header p {
+    /* color-冬至-霁红 */
+    color:#7C4449;
+    margin: 0 30%;
+    padding-bottom: 1em;
+    font-size: 1.2em;
+  }
+
+  #header h1{
+    padding-top: 0.5em;
+    /* color-冬至-霁红 */
+    color:#7C4449
+  }
+
+  #button {
+    transition: margin-left .5s;
+    height: 100%;
+}
+
+h2 {
+padding-top: 0.5em;
+padding-bottom: 0.1em;
+text-align: center;
+/* color-冬至-霁红 */
+color: #7C4449;
+}
+
+#panels_holder{
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  padding: 2.3%;
+  position: relative;
+}
+
+.panels {
+  float: left;
+  margin: 1% 2% 3% 2%;
+  height: 520px;
+  width: 220px;
+  border-style: solid;
+  border-color: #7C4449;
+  border-width: 4px;
+  /* bg-c: 冬至-咸池 */
+  background-color: rgba(218,169,169,0.2);
+}
+
+.panel_img{
+  padding: 10px 0px 10px 0px; 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.panel_pop {
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -55%;
+  text-align: center;
+}
+
+.panels:hover .panel_img{
+  opacity: 0.2;
+}
+
+.panels:hover .panel_pop {
+  opacity: 0.8;
+}
+
+.pop_text {
+  background-color: #7C4449;
+  color: #EFEFEF;
+  font-size: 20px;
+  padding: 16px 32px;
+}
+
+.pop_text a{
+  color: #EFEFEF;
+  text-decoration: none;
+}
+
+#video_holder{
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+  padding-bottom: 47%;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0);
+}
+
+#video_holder iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}  
+
+.iframe_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 10px;
+  margin:0 auto;
+  }
+
+#iframe_holder{
+  grid-column: 1/2;
+  grid-row:1/2;
+}
+
+#flex-text{
+  grid-column:2/3;
+  grid-row:1/2;
+}
+
+#iframe-holder2{
+  grid-column: 1/2;
+  grid-row:2/3;
+}
+
+#flex-text2{
+  grid-column:2/3;
+  grid-row:2/3;
+}
+
+
+
+#resume{
+  margin-top: 1%;
+  margin-left: 12%;
+  margin-right: 12%;
+  position: relative;
+  padding-bottom: 100%;
+  overflow: hidden;
+  background-color: rgba(255,255,255,0);
+}
+
+#resume embed {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+}  
+
+#gdrive_link {
+  text-decoration: none;
+  font-size: 25px;
+  /* bg-c:冬至-霁红 */
+  color: #7C4449;
+  padding-bottom: 3em;
+  margin-left: 12%;
+}
+
+#contact_info{
+  text-align: center;
+} 
+
+#contact_info a{
+  text-decoration: none;
+  color:black;
+}
