@@ -299,6 +299,10 @@ color: #7C4449;
   color:#796860;
 }
 
+footer{
+  margin-bottom: 3%;
+}
+
 footer ul{
   list-style-type: none;
   margin: 0;
