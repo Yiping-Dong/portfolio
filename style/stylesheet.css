@@ -265,6 +265,7 @@ color: #7C4449;
   div.iframe_grid #flex_text2{
     width:290px;
   }
+}
 
 
 #resume{
@@ -292,6 +293,27 @@ color: #7C4449;
   color: #7C4449;
   padding-bottom: 3em;
   margin-left: 12%;
+}
+
+#gdrive_link:hover{
+  color:#796860;
+}
+
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+footer li a{
+  text-decoration: none;
+  display: block;
+  color:#7C4449;
+}
+
+footer li a:hover{
+  color:#796860;
 }
 
 #text_video{
