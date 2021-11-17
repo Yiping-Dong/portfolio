@@ -85,6 +85,18 @@ body {
       /* bg-c:冬至-咸池 */
     background-color: #DAA9A9;
   }
+
+  @media (max-width:790px) { 
+    .openbtn {
+      height: 5%;
+      width: 100%;
+      top:0;
+      left: 0;
+      writing-mode: horizontal-tb;
+      text-orientation: unset;
+    }
+  }
+
   #index_header{
     margin-top:10px;
     text-align: center;
@@ -264,22 +276,6 @@ color: #7C4449;
   margin-top: 20px;
 }
 
-@media (max-width:920px) { /*adjust this like you want*/
-  div.iframe_grid {
-  flex-direction: row;
-  position: static;
-  width: 300px;
-  } 
-
-  div.iframe_grid #flex_text{
-    width:290px;
-  }
-  div.iframe_grid #flex_text2{
-    width:290px;
-  }
-}
-
-
 #resume{
   margin-top: 1%;
   margin-left: 12%;
@@ -348,4 +344,24 @@ footer li a:hover{
 
 #intext{
   color: black;
+}
+
+
+@media (max-width:920px) { 
+  div.iframe_grid {
+  flex-direction: row;
+  position: static;
+  width: 300px;
+  } 
+
+  div.iframe_grid #flex_text{
+    width:290px;
+  }
+  div.iframe_grid #flex_text2{
+    width:290px;
+  }
+
+  #gdrive_link {
+    font-size: 15px;
+  }
 }
