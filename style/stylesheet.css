@@ -141,16 +141,20 @@ color: #7C4449;
 }
 
 #panels_holder{
-  width: auto;
-  height: auto;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+  flex-direction: row;
+  /* position: relative; */
+  margin:0 auto;
   padding: 2.3%;
-  position: relative;
 }
 
 .panels {
-  float: left;
-  margin: 1% 2% 3% 2%;
+  margin: 2% auto;
   height: 520px;
   width: 220px;
   border-style: solid;
@@ -158,6 +162,11 @@ color: #7C4449;
   border-width: 4px;
   /* bg-c: 冬至-咸池 */
   background-color: rgba(218,169,169,0.2);
+}
+
+.panels_gap{
+  width:2%;
+  height:520px;
 }
 
 .panel_img{
@@ -261,6 +270,7 @@ color: #7C4449;
   position: static;
   width: 300px;
   } 
+
   div.iframe_grid #flex_text{
     width:290px;
   }
