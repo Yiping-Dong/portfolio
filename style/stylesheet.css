@@ -223,7 +223,7 @@ color: #7C4449;
   align-items: flex-start;
   align-content: flex-start;
   width: 850px;
-  height: 1250px;
+  height: 1300px;
   overflow: auto;
   flex-direction: row;
   margin:0 auto;
@@ -231,26 +231,28 @@ color: #7C4449;
 
   .iframe_grid #iframe_holder{
   width: 420px;
-  height: 700px;
+  height: 750px;
   margin-left: 0;
 }
 
 .iframe_grid #flex_text{
   width: 420px;
-  height: 700px;
+  height: 750px;
   margin-left: 10px;
 }
 
 .iframe_grid #iframe_holder2{
   width: 420px;
-  height: 450px;
+  height:530px;
   margin-left: 0;
+  margin-top: 20px;
 }
 
 .iframe_grid #flex_text2{
   width:420px;
-  height:450px;
+  height:530px;
   margin-left: 10px;
+  margin-top: 20px;
 }
 
 @media (max-width:920px) { /*adjust this like you want*/
@@ -331,7 +333,6 @@ footer li a:hover{
 } 
 
 #contact_info a{
-  text-decoration: none;
   color:black;
 }
 
