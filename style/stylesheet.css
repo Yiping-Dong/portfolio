@@ -227,7 +227,7 @@ color: #7C4449;
   background-color: #7C4449;
   color: #EFEFEF;
   font-size: 20px;
-  padding: 16px 50px;
+  padding: 16px 32px;
 }
 
 .pop_text a{
@@ -389,6 +389,14 @@ footer li a:hover{
 
   #panels_holder {
     margin-left: 8%;
+  }
+
+  .panel_pop{
+    left: -6%;
+  }
+
+  .pop_text{
+    padding: 12px 32px;
   }
 
   #project_context {
