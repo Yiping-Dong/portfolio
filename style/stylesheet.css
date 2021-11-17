@@ -215,11 +215,23 @@ color: #7C4449;
   text-align: center;
 }
 
+.panel_pop2{
+  transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -58%;
+  text-align: center;
+}
+
 .panels:hover .panel_img{
   opacity: 0.2;
 }
 
 .panels:hover .panel_pop {
+  opacity: 0.8;
+}
+
+.panels:hover .panel_pop2 {
   opacity: 0.8;
 }
 
@@ -229,6 +241,7 @@ color: #7C4449;
   font-size: 20px;
   padding: 16px 32px;
 }
+
 
 .pop_text a{
   color: #EFEFEF;
