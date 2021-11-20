@@ -176,14 +176,7 @@ color: #7C4449;
 #panels_holder{
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: flex-start;
-  align-content: flex-start;
-  overflow: auto;
-  flex-direction: row;
-  /* position: relative; */
-  margin:0 auto;
-  padding: 2.3%;
+  padding: 2%;
 }
 
 .panels {
@@ -266,39 +259,39 @@ color: #7C4449;
 }  
 
 
-.iframe_grid {
+.iframe_flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-start;
+  /* justify-content: flex-start;
   align-items: flex-start;
-  align-content: flex-start;
+  align-content: flex-start; */
   width: 850px;
   height: 1300px;
-  overflow: auto;
-  flex-direction: row;
+  /* overflow: auto;
+  flex-direction: row; */
   margin:0 auto;
   }
 
-  .iframe_grid #iframe_holder{
+  .iframe_flex #iframe_holder{
   width: 420px;
   height: 750px;
   margin-left: 0;
 }
 
-.iframe_grid #flex_text{
+.iframe_flex #flex_text{
   width: 420px;
   height: 750px;
   margin-left: 10px;
 }
 
-.iframe_grid #iframe_holder2{
+.iframe_flex #iframe_holder2{
   width: 420px;
   height:530px;
   margin-left: 0;
   margin-top: 20px;
 }
 
-.iframe_grid #flex_text2{
+.iframe_flex #flex_text2{
   width:420px;
   height:530px;
   margin-left: 10px;
@@ -377,10 +370,11 @@ footer li a:hover{
 
 
 @media (max-width:920px) { 
-  div.iframe_grid {
+  div.iframe_flex {
   flex-direction: row;
   position: static;
   width: 300px;
+  margin:auto;
   } 
 
   div.iframe_grid #flex_text{
@@ -388,6 +382,10 @@ footer li a:hover{
   }
   div.iframe_grid #flex_text2{
     width:290px;
+  }
+
+  footer{
+    bottom: 1%;
   }
 
   #gdrive_link {
