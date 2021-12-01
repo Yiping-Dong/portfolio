@@ -14,6 +14,14 @@ body {
     height: 100%;
 }
 
+::-moz-selection { /* Code for Firefox */
+  background:rgba(235,225,169,0.6);
+}
+
+::selection {
+  background: rgba(235,225,169,0.6);
+}
+
 
 #background{
   position: fixed;
