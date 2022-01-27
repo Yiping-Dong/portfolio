@@ -1,3 +1,3 @@
 # Yiping's portfolio
 
-https://yiping-dong.github.io/portfolio/
+https://wuyuyipi.github.io/portfolio/
