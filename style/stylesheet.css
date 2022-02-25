@@ -14,6 +14,12 @@ body {
     height: 100%;
 }
 
+@media (max-width:790px) { 
+  #body {
+    width:95%;
+  }
+}
+
 ::-moz-selection { /* Code for Firefox */
   background:rgba(235,225,169,0.6);
 }
@@ -172,6 +178,7 @@ body {
   #button {
     transition: margin-left .5s;
     height: 100%;
+    z-index:10;
 }
 
 @media (max-width:790px) { 
