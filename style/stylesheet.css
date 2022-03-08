@@ -200,6 +200,7 @@ color: #7C4449;
 #panels_holder{
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   padding: 2%;
 }
 
