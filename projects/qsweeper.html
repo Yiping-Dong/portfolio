@@ -35,18 +35,33 @@
 		<iframe src="https://drive.google.com/file/d/1PLg_zRrW4Pt1SQRvvskT0vFx-LWTUGEJ/preview" width="640" height="480" frameBorder="0"></iframe>
 	</div>
 
-	<p><a href = "https://drive.google.com/file/d/1PLg_zRrW4Pt1SQRvvskT0vFx-LWTUGEJ/view?usp=sharing" id = "gdrive_link" target="_blank">✦Watch on Google Drive</a>
-	</p>
+	
 
 	<div id = "text_video">
+		<p><a href = "https://drive.google.com/file/d/1PLg_zRrW4Pt1SQRvvskT0vFx-LWTUGEJ/view?usp=sharing" id = "gdrive_link" target="_blank">✦Watch on Google Drive</a>
+		</p>
 		<p>Q-sweeper stands for quantum minesweeper. This is also the first project by the team of Studio Degen. We recreated the traditional game by applying quantum concepts, such as noise and entanglement, to it. Our map generation is done using data from a quantum algorithm to place the mines in our game.</p>
 		<p>It is a game me and four other teammates: Apurv, Tanvi, Hyacinth, and Shangshang developed together as a part of the IBM x Parsons Quantum Design Jam. We are also bringing this project further into installations and thinking about making a Quantum Arcade by recreating more classic games with quantum concepts.</p>
-		<p>More details about Q-Sweeper are explained in the video.</p>
-	</div>
+		<p>In this project, I did sound design, video editing and animations, along with a small part of backend coding.</p>
+	
 
 	<p><a href = "https://studio-degen.github.io/q-sweeper/" id = "gdrive_link" target="_blank">✦Play Q-Sweeper</a>
 	</p>
+
+	<p>We created the maps using Bernstein-Vazirani algorithm, an extension of the Deutch-Jozsa algorithm. The 1024 tiles in our board correspond to 1 out of the 1024 shots taken on the quantum computer. Thus, the map transforms into a visualisation of the data and its associated noise.</p>
+
+	<p>The game has two main features: entangled mines and interfering tomatoes. A percentage of the mines are pre-determined to be entangled mines. These mines are interconnected with 2 or 2 other mines. Opening one of these mines will reveal the other mines, but will not end the game. The number of tomatoes are dictated by a percentage of the q-bit data and are placed randomly across the board covering blank and numbered tiles making the game harder for the player.</p>
+
+	<h3>References</h3>
+		<p>
+            We ran our algorithm on the lima quantum computers from <a href="https://qiskit.org/" target="_blank" id = "intext"> IBM's Qiskit starter kit</a>. 
+            Our sound was built on <a href="https://www.ableton.com/en/" target="_blank" id = "intext">Ableton</a> using the <a href="https://github.com/JavaFXpert/quantum-music-playground" target="_blank" id = "intext">Quantum Music Playground</a>. 
+            <br>
+            The javascript code was built on top of a coding train <a href="https://editor.p5js.org/codingtrain/sketches/-mz-ePoqd" target="_blank" id = "intext">minesweeper project</a> and 
+            the flagging was based on the code <a href="https://github.com/mikolajfrohmberg/p5.js-Minesweeper" target="_blank" id = "intext"> here</a>.
+        </p>
 	  </div>
+	</div>
 </body>
 
 <footer>
