@@ -7,6 +7,96 @@
 	<title>Yiping Dong Portfolio-Q-Sweeper</title>
 	<link rel="stylesheet" type="text/css" href="../style/stylesheet.css">
 	<link rel = "icon" href = "../images/title_icon.png" type = "image/x-icon">
+
+	<style>
+		.single_img {
+            width:100%;
+            height:auto;
+            padding-bottom: 1.5em;
+        }
+
+		#img_parents{
+            width:100%;
+            margin:0 auto;
+			padding-bottom: 1.5em;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-flex-direction: row;
+            -ms-flex-direction: row;
+            flex-direction: row;
+            -webkit-flex-wrap: wrap;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-align-content: flex-start;
+            -ms-flex-line-pack: start;
+            align-content: flex-start;
+            -webkit-align-items: flex-start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+        }
+
+        #img1{
+            margin:10px auto;
+            width: 30%;
+            height:auto;
+            min-width: 280px;
+            -webkit-order: 0;
+            -ms-flex-order: 0;
+            order: 0;
+            -webkit-flex: 0 1 auto;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            -webkit-align-self: auto;
+            -ms-flex-item-align: auto;
+            align-self: auto;
+        }
+
+        #img2{
+            margin:10px auto;
+            width: 30%;
+            height:auto;
+            min-width: 280px;
+            -webkit-order: 0;
+            -ms-flex-order: 0;
+            order: 0;
+            -webkit-flex: 0 1 auto;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            -webkit-align-self: auto;
+            -ms-flex-item-align: auto;
+            align-self: auto;
+        }
+
+        #img3{
+            margin:10px auto;
+            width: 30%;
+            height:auto;
+            min-width: 280px;
+            -webkit-order: 0;
+            -ms-flex-order: 0;
+            order: 0;
+            -webkit-flex: 0 1 auto;
+            -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+            -webkit-align-self: auto;
+            -ms-flex-item-align: auto;
+            align-self: auto;
+        }
+
+        img{ 
+            margin: 0 auto;
+            display: block;
+            position: relative;
+            width:100%;
+            height: auto;
+            
+        }
+
+		</style>
 </head>
 
 <body>
@@ -51,6 +141,23 @@
 	<p>We created the maps using Bernstein-Vazirani algorithm, an extension of the Deutch-Jozsa algorithm. The 1024 tiles in our board correspond to 1 out of the 1024 shots taken on the quantum computer. Thus, the map transforms into a visualisation of the data and its associated noise.</p>
 
 	<p>The game has two main features: entangled mines and interfering tomatoes. A percentage of the mines are pre-determined to be entangled mines. These mines are interconnected with 2 or 2 other mines. Opening one of these mines will reveal the other mines, but will not end the game. The number of tomatoes are dictated by a percentage of the q-bit data and are placed randomly across the board covering blank and numbered tiles making the game harder for the player.</p>
+
+	<div id="img_parents">
+        <div id="img1">
+            <img src="../images/qsweeper/noise2.png" alt="q sweeper map 1">
+        </div>
+
+        <div id="img2">
+            <img src="../images/qsweeper/noise4.png" alt="q sweeper map 2">
+        </div>
+
+        <div id="img3">
+            <img src="../images/qsweeper/noise5.png" alt="q sweeper map 3">
+        </div>
+      </div>
+
+	<img src="../images/qsweeper/full_screen_blank.png" alt="q-sweeper screenshot" class="single_img">
+	<img src="../images/qsweeper/full_screen.png" alt="q-sweeper screenshot" class="single_img">
 
 	<h3>References</h3>
 		<p>
