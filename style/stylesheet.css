@@ -408,6 +408,12 @@ footer li a:hover{
   color: black;
 }
 
+.single_img {
+  width:100%;
+  height:auto;
+  padding-bottom: 1.5em;
+}
+
 
 @media (max-width:920px) { 
   div.iframe_flex {
