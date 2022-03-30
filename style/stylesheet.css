@@ -16,7 +16,7 @@ body {
 
 @media (max-width:790px) { 
   #body {
-    width:95%;
+    width:100%;
   }
 }
 
@@ -109,9 +109,6 @@ body {
   }
 
   @media (max-width:790px) { 
-    body{
-      margin-left: 8%;
-    }
 
     .openbtn {
       height: 5%;
@@ -182,6 +179,11 @@ body {
 }
 
 @media (max-width:790px) { 
+
+  #index_header {
+    margin-left:5%;
+  }
+
   #index_header p{
     font-size: 1.1em;
     padding-bottom:0.5em;
@@ -432,9 +434,10 @@ footer li a:hover{
 }
 
 @media (max-width:790px) { 
-  body div{
-    margin-left: 6%;
-  }
+
+  #header{
+    margin-left:5%;
+  } 
 
   #panels_holder {
     margin-left: 8%;
@@ -450,9 +453,13 @@ footer li a:hover{
 
   .pop_text{
     padding: 12px 32px;
+    margin-left:5%;
   }
 
   #project_context {
-    margin-left: 8%;
+    width:100%;
+    margin-left:5%;
   }
+
+
 }
