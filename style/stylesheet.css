@@ -29,7 +29,7 @@ body {
 }
 
 
-#background{
+/* #background{
   position: fixed;
   width: 900px;
   height: 900px;
@@ -37,7 +37,7 @@ body {
   left: -120px;
   z-index: -1;
   opacity: 0.3;
-}
+} */
 
 @media (max-width:790px) { 
   #background {
@@ -228,7 +228,7 @@ width:100%;
   border-color: #7C4449;
   border-width: 4px;
   /* bg-c: 冬至-咸池 */
-  background-color: rgba(218,169,169,0.2);
+  /* background-color: rgba(218,169,169,0.2); */
 }
 
 .panels a{
