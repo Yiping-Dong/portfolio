@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@400;600&display=swap');
 
 html {
     /* bg-c: 冬至-紫梅 */
     /* background-color: #BB7A87; */
     /* color-立秋-缟羽 */
     background-color: #EFEFEF;
-    font-family: 'Hind', sans-serif;
+    /* font-family: 'Hind', sans-serif; */
+    font-family: 'M PLUS 1', sans-serif;
 }
 
 body {
@@ -158,6 +160,7 @@ body {
     top: 20px;
     /* bg-color-冬至-霁红 */
     color:#7C4449;
+    font: size 30px;
     /* color-立秋-缟羽 */
     /* color: #EFEFEF; */
   }
@@ -174,7 +177,8 @@ body {
     font-family: 'Enriqueta', serif;
     padding-top: 0.5em;
     /* color-冬至-霁红 */
-    color:#7C4449
+    color:#7C4449;
+    font: size 30px;
   }
 
   #button {
@@ -209,6 +213,7 @@ h3{
   font-family: 'Enriqueta', serif;
   text-align: left;
   color: #7C4449;
+  font-size: 22px;
 }
 
 .panels_section{
@@ -386,10 +391,14 @@ width:100%;
 #gdrive_link {
   font-family: 'Enriqueta', serif;
   text-decoration: none;
-  font-size: 25px;
+  font-size: 26px;
   /* bg-c:冬至-霁红 */
   color: #7C4449;
   padding-bottom: 3em;
+}
+
+p {
+  line-height:160%;
 }
 
 #gdrive_link:hover{
