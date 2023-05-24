@@ -117,7 +117,7 @@ h3 {
 }
 
 .main-text-sec a {
-    text-decoration: none;
+    text-decoration: underline;
 	color: #31322C; /*冬至-京元*/
 }
 
